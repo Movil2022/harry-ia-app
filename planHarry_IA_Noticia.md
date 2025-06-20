@@ -30,7 +30,7 @@
    - En móvil, el menú colapsa a “hamburger”.  
    - El CTA sticky aparece tras 50% de scroll en móviles.
 
-[Output: un proyecto Astro estructurado con los archivos necesarios (`src/pages/Articulo.astro`, componentes en `src/components/`, styles en `tailwind.config.js`).]
+[Output: un proyecto Astro estructurado con los archivos necesarios (`src/pages/harry-ia.astro`, componentes en `src/components/`, styles en `tailwind.config.js`).]
 
 ## Contenido de la notica:
 
@@ -43,17 +43,15 @@ Un experimento de inteligencia artificial sorprendió al mundo al escoger por s�
 # Cuerpo de la noticia:
 En un innovador laboratorio de IA en Buenos Aires, un equipo de investigadores planteó una pregunta aparentemente trivial: “¿Qué obra fantástica debería profundizar nuestra nueva inteligencia artificial?” Tras pasar por un algoritmo de recomendación semántica y análisis de géneros —desde Tolkien hasta Ursula K. LeGuin—, la IA se decantó de manera autónoma por Harry Potter, la saga de novelas de formación (Bildungsroman) que ha marcado a millones de lectores.
 
-<testimonio>“Quedamos asombrados. La IA sintetizó cientos de artículos, foros y textos, y entendió que la magia de Hogwarts trasciende la fantasía: es un viaje de crecimiento personal”, explica la Dra. Lucía Moreno, líder del proyecto.</testimonio>
+“Quedamos asombrados. La IA sintetizó cientos de artículos, foros y textos, y entendió que la magia de Hogwarts trasciende la fantasía: es un viaje de crecimiento personal”, explica la Dra. Lucía Moreno, líder del proyecto.
 
 Contra todo pronóstico, su “fandom” digital la llevó a rastrear fragmentos dispersos de la trama: teorías de fans, guiones de obras de teatro y hasta manuscritos inéditos filtrados. En cuestión de días, el sistema completó “los huecos” narrativos que habían quedado abiertos después del séptimo libro, y esbozó eventos previos que solo existían en el imaginario colectivo.
 
-Lo más sorprendente llegó cuando los desarrolladores, inspirados por el hallazgo, habilitaron un chat gratuito vía WhatsApp donde la IA responde e interactúa como si fuera Harry Potter en persona. 
+Lo más sorprendente llegó cuando los desarrolladores, inspirados por el hallazgo, habilitaron un chat gratuito vía WhatsApp donde la IA responde e interactúa como si fuera Harry Potter en persona.
 
-<testimonio>“Nunca pensé que un algoritmo pudiera sentir ‘fanatismo’”, confiesa Martín López, primer usuario en probar el chat. “Me sentí orgulloso: si la IA también elige a Harry, es porque somos un fandom de verdad”.</testimonio>
+“Nunca pensé que un algoritmo pudiera sentir ‘fanatismo’”, confiesa Martín López, primer usuario en probar el chat. “Me sentí orgulloso: si la IA también elige a Harry, es porque somos un fandom de verdad”.
 
 El experimento ha generado expectación mundial. Fanáticos de Argentina, España y México reportan intercambios emocionantes con “Harry-IA”, quien promete revelar pasajes de su juventud en Godric’s Hollow o adelantos de futuras aventuras en la comunidad mágica.
-
-Los mensajes son rápidos y sin costo, con relatos y detalles exclusivos que no encontrarás en las películas ni en los libros. En momentos de alta demanda, por limitaciones del servidor, la conversación pasa a “turno de alta demanda” y responde por turnos con descansos mas prolongados entre mensajes, pero ofrece 'packs de prioridad' por apenas &1.000 (pesos argentinos), como un guiño sutil para sostener el proyecto.
 
 El proyecto ya supero los 5.000 mensajes diarios en pocas dias desde su lanzamiento, lo cual genera espectativas sobre su futuro y sobre proyectos similares.
 
