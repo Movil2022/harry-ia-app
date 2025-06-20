@@ -1,0 +1,105 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Stars -->
+  <circle cx="100" cy="50" r="1" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="200" cy="80" r="1.5" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="300" cy="40" r="1" fill="#fbbf24" opacity="0.9"/>
+  <circle cx="500" cy="60" r="1" fill="#fbbf24" opacity="0.7"/>
+  <circle cx="650" cy="30" r="1.5" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="750" cy="70" r="1" fill="#fbbf24" opacity="0.6"/>
+  
+  <!-- Hogwarts Castle Silhouette -->
+  <g transform="translate(50, 200)">
+    <!-- Main towers -->
+    <rect x="0" y="50" width="30" height="100" fill="#1e293b"/>
+    <polygon points="15,50 0,30 30,30" fill="#1e293b"/>
+    
+    <rect x="40" y="30" width="25" height="120" fill="#1e293b"/>
+    <polygon points="52.5,30 40,10 65,10" fill="#1e293b"/>
+    
+    <rect x="75" y="60" width="20" height="90" fill="#1e293b"/>
+    <polygon points="85,60 75,45 95,45" fill="#1e293b"/>
+    
+    <!-- Windows with magical glow -->
+    <rect x="10" y="80" width="4" height="6" fill="#fbbf24" filter="url(#glow)"/>
+    <rect x="20" y="100" width="4" height="6" fill="#fbbf24" filter="url(#glow)"/>
+    <rect x="48" y="60" width="4" height="6" fill="#fbbf24" filter="url(#glow)"/>
+    <rect x="48" y="80" width="4" height="6" fill="#fbbf24" filter="url(#glow)"/>
+    <rect x="82" y="90" width="3" height="5" fill="#fbbf24" filter="url(#glow)"/>
+  </g>
+  
+  <!-- AI Circuit Pattern -->
+  <g transform="translate(400, 100)" opacity="0.6">
+    <!-- Circuit lines -->
+    <path d="M0,50 L50,50 L50,20 L100,20" stroke="#1e40af" stroke-width="2" fill="none"/>
+    <path d="M50,50 L50,80 L120,80" stroke="#1e40af" stroke-width="2" fill="none"/>
+    <path d="M100,20 L150,20 L150,50 L200,50" stroke="#1e40af" stroke-width="2" fill="none"/>
+    
+    <!-- Circuit nodes -->
+    <circle cx="50" cy="50" r="4" fill="#1e40af" filter="url(#glow)"/>
+    <circle cx="100" cy="20" r="3" fill="#1e40af" filter="url(#glow)"/>
+    <circle cx="120" cy="80" r="3" fill="#1e40af" filter="url(#glow)"/>
+    <circle cx="150" cy="50" r="4" fill="#1e40af" filter="url(#glow)"/>
+    <circle cx="200" cy="50" r="3" fill="#1e40af" filter="url(#glow)"/>
+  </g>
+  
+  <!-- Magic Wand with AI Elements -->
+  <g transform="translate(300, 250) rotate(-30)">
+    <!-- Wand -->
+    <rect x="0" y="-2" width="120" height="4" fill="url(#goldGradient)"/>
+    <circle cx="0" cy="0" r="6" fill="url(#goldGradient)"/>
+    
+    <!-- Digital particles -->
+    <rect x="130" y="-1" width="2" height="2" fill="#1e40af" opacity="0.8"/>
+    <rect x="135" y="2" width="2" height="2" fill="#1e40af" opacity="0.6"/>
+    <rect x="140" y="-3" width="2" height="2" fill="#1e40af" opacity="0.9"/>
+    <rect x="145" y="1" width="2" height="2" fill="#1e40af" opacity="0.7"/>
+  </g>
+  
+  <!-- Floating magical-digital elements -->
+  <g transform="translate(500, 180)">
+    <!-- Hexagonal AI nodes -->
+    <polygon points="10,0 20,6 20,18 10,24 0,18 0,6" fill="none" stroke="#fbbf24" stroke-width="1" opacity="0.7"/>
+    <polygon points="40,10 50,16 50,28 40,34 30,28 30,16" fill="none" stroke="#1e40af" stroke-width="1" opacity="0.8"/>
+    
+    <!-- Data streams -->
+    <path d="M60,20 Q80,10 100,20 Q120,30 140,20" stroke="#94a3b8" stroke-width="1" fill="none" opacity="0.5" stroke-dasharray="2,2"/>
+  </g>
+  
+  <!-- Lightning bolt with digital effect -->
+  <g transform="translate(600, 120)">
+    <path d="M0,0 L10,20 L5,20 L15,40 L5,25 L10,25 Z" fill="url(#goldGradient)" filter="url(#glow)"/>
+    <!-- Digital fragments -->
+    <rect x="20" y="10" width="1" height="1" fill="#1e40af"/>
+    <rect x="22" y="15" width="1" height="1" fill="#1e40af"/>
+    <rect x="18" y="25" width="1" height="1" fill="#1e40af"/>
+  </g>
+  
+  <!-- Mystical code symbols -->
+  <g transform="translate(150, 300)" opacity="0.4">
+    <text x="0" y="0" font-family="monospace" font-size="12" fill="#94a3b8">&lt;magic&gt;</text>
+    <text x="80" y="0" font-family="monospace" font-size="12" fill="#94a3b8">AI.cast()</text>
+    <text x="160" y="0" font-family="monospace" font-size="12" fill="#94a3b8">{spell}</text>
+  </g>
+</svg>

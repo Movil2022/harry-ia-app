@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+/* Custom CSS Variables */
+:root {
+	--midnight-blue: #0f172a;
+	--soft-gold: #fbbf24;
+	--light-gray: #1e293b;
+	--dark-gray: #0f172a;
+	--accent-blue: #1e40af;
+	--text-light: #e2e8f0;
+	--text-muted: #94a3b8;
+}
+
+/* Font Family Classes */
+.font-serif {
+  font-family: 'Merriweather', serif;
+}
+
+.font-sans {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Base body styles */
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: var(--text-light);
+  background-color: var(--dark-gray);
+}
+
+/* Custom Tailwind Extensions */
+@layer utilities {
+  .text-midnight-blue {
+    color: var(--midnight-blue);
+  }
+  
+  .bg-midnight-blue {
+    background-color: var(--midnight-blue);
+  }
+  
+  .text-soft-gold {
+    color: var(--soft-gold);
+  }
+  
+  .bg-soft-gold {
+    background-color: var(--soft-gold);
+  }
+  
+  .text-light-gray {
+    color: var(--light-gray);
+  }
+  
+  .bg-light-gray {
+    background-color: var(--light-gray);
+  }
+  
+  .bg-dark-gray {
+    background-color: var(--dark-gray);
+  }
+  
+  .text-accent-blue {
+    color: var(--accent-blue);
+  }
+  
+  .bg-accent-blue {
+    background-color: var(--accent-blue);
+  }
+  
+  .text-light {
+    color: var(--text-light);
+  }
+  
+  .text-muted {
+    color: var(--text-muted);
+  }
+  
+  .border-soft-gold {
+    border-color: var(--soft-gold);
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom blockquote styles */
+blockquote {
+  position: relative;
+}
+
+blockquote::before {
+  content: '"';
+  font-size: 4rem;
+  color: var(--color-soft-gold);
+  position: absolute;
+  left: -1rem;
+  top: -1rem;
+  font-family: 'Merriweather', serif;
+  opacity: 0.3;
+}

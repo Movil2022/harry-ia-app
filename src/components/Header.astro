@@ -1,0 +1,70 @@
+---
+// Header component
+---
+
+<header class="bg-dark-gray text-light shadow-lg sticky top-0 z-50 border-b border-midnight-blue">
+	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+		<div class="flex justify-between items-center h-16">
+			<!-- Logo -->
+			<div class="flex items-center">
+				<span class="text-2xl font-bold text-soft-gold">🧙‍♂️ Wizard's Tales</span>
+			</div>
+
+			<!-- Navegación Desktop -->
+			<nav class="hidden md:flex space-x-8">
+				<span class="text-muted hover:text-soft-gold transition-colors cursor-default">Inicio</span>
+				<span class="text-muted hover:text-soft-gold transition-colors cursor-default">Noticias</span>
+				<span class="text-muted hover:text-soft-gold transition-colors cursor-default">Contacto</span>
+				<a 
+					href="https://wa.me/543795692823" 
+					target="_blank" 
+					rel="noopener noreferrer"
+					class="bg-soft-gold text-midnight-blue px-6 py-2 rounded-full font-semibold hover:bg-yellow-400 transition-colors font-sans"
+				>
+					Chatea Gratis
+				</a>
+			</nav>
+
+			<!-- Mobile menu button -->
+			<div class="md:hidden">
+				<button 
+					id="mobile-menu-button"
+					type="button" 
+					class="text-muted hover:text-soft-gold focus:outline-none focus:text-midnight-blue transition-colors duration-200"
+					aria-label="Abrir menú"
+				>
+					<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+					</svg>
+				</button>
+			</div>
+		</div>
+
+		<!-- Mobile menu -->
+		<div id="mobile-menu" class="md:hidden hidden bg-dark-gray border-t border-midnight-blue">
+			<div class="px-2 pt-2 pb-3 space-y-1">
+				<span class="block px-3 py-2 text-muted cursor-default font-medium font-sans">Inicio</span>
+				<span class="block px-3 py-2 text-muted cursor-default font-medium font-sans">Noticias</span>
+				<span class="block px-3 py-2 text-muted cursor-default font-medium font-sans">Contacto</span>
+				<a 
+					href="https://wa.me/543795692823" 
+					target="_blank" 
+					rel="noopener noreferrer"
+					class="block mx-3 my-2 bg-soft-gold text-midnight-blue px-4 py-2 rounded-lg hover:bg-yellow-400 transition-colors duration-200 ease-in-out font-medium text-center font-sans"
+				>
+					Chatea Gratis
+				</a>
+			</div>
+		</div>
+	</div>
+</header>
+
+<script>
+	// Mobile menu toggle
+	const mobileMenuButton = document.getElementById('mobile-menu-button');
+	const mobileMenu = document.getElementById('mobile-menu');
+
+	mobileMenuButton?.addEventListener('click', () => {
+		mobileMenu?.classList.toggle('hidden');
+	});
+</script>
